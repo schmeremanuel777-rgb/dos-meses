@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para Vos 💜</title>
+<link rel="stylesheet" href="sobre.css">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;800&display=swap" rel="stylesheet">
+<style>.music-btn{position:fixed;top:18px;right:18px;z-index:20;width:44px;height:44px;border-radius:50%;border:1px solid rgba(181,102,255,0.3);background:rgba(255,255,255,0.06);backdrop-filter:blur(12px);color:white;font-size:18px;cursor:pointer}</style></head>
+<body>
+<audio id="music" loop preload="auto"><source src="audio/cancion.mp3" type="audio/mpeg"><source src="audio/athousandyears.mp3" type="audio/mpeg"></audio>
+<button id="musicBtn" class="music-btn">♫</button>
+<canvas id="particles"></canvas>
+<div class="glow glow1"></div>
+<div class="glow glow2"></div>
+
+<div class="container">
+    <p class="hint" id="hint">Toca el sobre 💜</p>
+    <div class="envelope" id="envelope">
+        <div class="envelope-back"></div>
+        <div class="letter" id="letter">
+            <div class="photo-wrap">
+                <img src="img/nosotros.jpg" alt="Nosotros">
+            </div>
+            <button id="showLetter">Leer Carta 💌</button>
+        </div>
+        <div class="flap" id="flap"></div>
+        <div class="front"></div>
+        <div class="seal" id="seal">💜</div>
+    </div>
+</div>
+<script src="sobre.js"></script>
+</body>
+</html>

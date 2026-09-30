@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/jpeg" href="img/nosotros.jpg">
+<link rel="apple-touch-icon" href="img/nosotros.jpg">
+<meta property="og:image" content="img/nosotros.jpg">
+<title>Nuestra Historia 💜</title>
+<link rel="stylesheet" href="carta.css">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+<audio id="music" loop playsinline preload="auto"><source src="audio/cancion.mp3" type="audio/mpeg"><source src="audio/athousandyears.mp3" type="audio/mpeg"></audio>
+<button id="musicBtn" class="music-btn" title="Música">♫</button>
+
+<div id="petals"></div>
+<canvas id="particles"></canvas>
+
+<section class="hero" id="hero">
+    <div class="hero-glow"></div>
+    <div class="hero-content" id="heroContent">
+        <div class="badge">31 • 07 • 2026 → 30 • 09 • 2026</div>
+        <h1>Para Vos<br><span>Mi Amor 💜</span></h1>
+        <p class="hero-sub">Dos meses que valen por toda una vida</p>
+        
+        <div class="contador" id="contador">
+            <div class="c-item"><span id="dias">0</span><small>DÍAS</small></div>
+            <div class="c-sep">:</div>
+            <div class="c-item"><span id="horas">0</span><small>HORAS</small></div>
+            <div class="c-sep">:</div>
+            <div class="c-item"><span id="minutos">0</span><small>MIN</small></div>
+            <div class="c-sep">:</div>
+            <div class="c-item"><span id="segundos">0</span><small>SEG</small></div>
+        </div>
+        <p class="contador-label">Desde nuestro primer día juntos</p>
+        <button id="bajarBtn" class="bajar-btn">Bajar a la carta ↓</button>
+    </div>
+    <div class="scroll-ind" id="scrollInd">bajando automáticamente en 5s</div>
+</section>
+
+<section class="letter" id="letterSection">
+    <div class="letter-card">
+        <div class="letter-header">
+            <img src="img/nosotros.jpg" alt="nosotros" class="letter-avatar">
+            <div><strong>Para mi reina</strong><span>30 de Septiembre, 2026 • 2 meses</span></div>
+        </div>
+        <h2>Felices 2 Meses, mi amor 💜</h2>
+        <div id="typing"></div>
+        <div class="sign">— Tu Little, que te ama con toda su vida</div>
+    </div>
+</section>
+
+<section class="single-photo">
+    <div class="single-photo-card">
+        <img src="img/nosotros.jpg" alt="Nosotros">
+        <p>Nosotros 💜 31/07/2026</p>
+    </div>
+</section>
+
+<section class="final">
+    <div class="final-card">
+        <div class="final-hearts">💜✨</div>
+        <h2>Te amo hoy,<br>mañana<br>y todos los días que vengan</h2>
+        <p>Gracias por estos 2 meses. Vamos por muchos más.</p>
+        <a href="index.html" class="btn-ghost">Volver al inicio</a>
+    </div>
+</section>
+
+<script src="carta.js"></script>
+</body>
+</html>
